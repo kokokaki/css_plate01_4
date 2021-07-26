@@ -373,3 +373,30 @@ section.me ul.in li p::before {
     font-weight: 700;
     cursor: pointer;
 }
+
+/* section sns style */
+section.sns {
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+section.sns ul {
+    width: 74%;
+    margin: 50px auto;
+}
+section.sns ul li {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+section.sns ul li:last-child {
+    margin-right: 0;
+}
+section.sns ul li .img-box {
+    width: 100%;
+    height: 251px;
+    overflow: hidden;
+}
+section.sns ul li .img-box img {
+    width: 100%;
+}
